@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Teko:wght@300..700&display=swap');
+@import "tailwindcss";
+@plugin "daisyui";
+
+#root {
+    background-color: #070A13;
+    padding: 0;
+    margin: 0;
+}
+
+.teko {
+    font-family: "Teko", sans-serif;
+}
+
+.inter {
+    font-family: "Inter", sans-serif;
+}
+
+.blue {
+    color: #52A3FF;
+}
+
+.bgBlue {
+    background-color: #52A3FF;
+}
+
+.hovBlue:hover {
+    color: #52A3FF;
+}
+
+.hovBlueBg:hover {
+    background-color: #52A3FF;
+}
+
+.spidy {
+    color: #FF3145;
+}
+
+.bgSpidy {
+    background-color: #FF3145;
+}
+
+.hovSpidy:hover {
+    color: #FF3145;
+}
+
+.hovSpidyBg:hover {
+    background-color: #FF3145;
+}
+
+.para {
+    color: #F7F8FFad;
+}
+
+.tra {
+    transition: all .3s ease-in-out;
+}
+
+
+.ani-increase {
+    transform-origin: bottom;
+    animation: increase 1s ease-in-out .2s forwards;
+}
+
+.ani-increase2 {
+    transform-origin: left;
+    animation: increase2 1s ease-in-out .2s forwards;
+}
+
+.round {
+    animation: rounded 2s infinite ease-in-out .2s;
+}
+.round2 {
+    animation: rounded2 2s infinite ease-in-out .2s;
+}
+@keyframes increase {
+    from {
+        transform: scale(0);
+    }
+
+    to {
+        transform: scale(1) !important;
+    }
+}
+
+@keyframes increase2 {
+    from {
+        transform: scale(0);
+    }
+
+    to {
+        transform: scale(1) !important;
+    }
+}
+
+@keyframes rounded {
+    0% {
+        transform: rotate(0);
+        box-shadow: 0 0 15px 2px #FF314533;
+    }
+    50%{
+        box-shadow: 0 0 25px 15px #FF3145;
+    }
+    100% {
+        box-shadow: 0 0 15px 2px #FF314533;
+        transform: rotate(360deg);
+    }
+}
+@keyframes rounded2 {
+    0% {
+        transform: rotate(0);
+        box-shadow: 0 0 15px 2px #52A3FF33;
+    }
+    50%{
+        box-shadow: 0 0 25px 15px #52A3FF;
+    }
+    100% {
+        box-shadow: 0 0 15px 2px #52A3FF33;
+        transform: rotate(360deg);
+    }
+}
