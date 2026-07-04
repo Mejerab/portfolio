@@ -22,13 +22,13 @@ const Works = () => {
             <PointHook top={'PROJECTs and spidy works'} main={'Every project tells a story of code, creativity, and problem-solving'} text={"Explore the apps, interfaces, and systems I've built facing and using diffirent technologies—each one a new mission completed."} />
             <div className="space-y-8">
                 <div role="tablist" className="tabs tabs-border">
-                    <a onClick={() => { setVal('all') }} role="tab" className={`${val === 'all' && 'spidy'} tra tab text-lg font-extrabold`}>All Webs
+                    <a onClick={() => { setVal('all') }} role="tab" className={`${val === 'all' ? 'spidy': 'text-white'} tra tab text-lg font-extrabold`}>All Webs
                         <div className={`absolute bottom-0 left-1/2 -translate-x-1/2 w-0 h-1 ${val === 'all' && 'w-9/12'} tra rounded-full bgSpidy`}></div>
                     </a>
-                    <a onClick={() => { setVal('Fullstack') }} role="tab" className={`${val === 'Fullstack' && 'spidy'} tra tab text-lg font-extrabold`}>Fullstack
+                    <a onClick={() => { setVal('Fullstack') }} role="tab" className={`${val === 'Fullstack' ? 'spidy':'text-white'} tra tab text-lg font-extrabold`}>Fullstack
                         <div className={`absolute bottom-0 left-1/2 -translate-x-1/2 w-0 h-1 ${val === 'Fullstack' && 'w-9/12'} tra rounded-full bgSpidy`}></div>
                     </a>
-                    <a onClick={() => { setVal('Frontend') }} role="tab" className={`${val === 'Frontend' && 'spidy'} tra tab text-lg font-extrabold`}>Frontend
+                    <a onClick={() => { setVal('Frontend') }} role="tab" className={`${val === 'Frontend' ? 'spidy': 'text-white'} tra tab text-lg font-extrabold`}>Frontend
                         <div className={`absolute bottom-0 left-1/2 -translate-x-1/2 w-0 h-1 ${val === 'Frontend' && 'w-9/12'} tra rounded-full bgSpidy`}></div>
                     </a>
                 </div>
