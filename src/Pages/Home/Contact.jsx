@@ -38,7 +38,7 @@ const Contact = () => {
                         </div>
                     </div>
                 </div>
-                <div className="relative lg:w-fit w-full overflow-hidden grow rounded-4xl bg-linear-to-b from-[#070A13D1] from-70% to-[#52A3FF1F]">
+                <div className="relative lg:w-fit lg:w-2/3 overflow-hidden grow rounded-4xl bg-linear-to-b from-[#070A13D1] from-70% to-[#52A3FF1F]">
                     <div className="absolute w-4/5 h-1/4 -top-1/6 left-1/2 -translate-x-1/2 bg-[#FF314533] rounded-full blur-2xl"></div>
                     <div className="flex flex-col items-center p-6 py-8 space-y-4">
                         <h4 className="font-black uppercase blue text-sm">start a mission</h4>

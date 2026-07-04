@@ -19,7 +19,11 @@ const Layout = () => {
         })
     }, [location.pathname])
     return (
+<<<<<<< HEAD
         <div className="max-w-7xl mx-auto pt-7 relative z-0 inter pb-12 lg:px-0 p-6 text-white!">
+=======
+        <div className="max-w-7xl mx-auto pt-7 relative z-0 inter pb-12 lg:px-0 p-6">
+>>>>>>> 9f000b6173f569ef99781c02404541a47224ca36
             <div className="mb-28">
                 <Navbar />
             </div>
