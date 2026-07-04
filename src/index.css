@@ -119,3 +119,9 @@
         transform: rotate(360deg);
     }
 }
+[data-aos="wid"] {
+    width: 0%;
+}
+[data-aos="wid"].aos-animate {
+    width: 75%;
+}

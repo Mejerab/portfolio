@@ -5,8 +5,8 @@ import PointHook from "../../hooks/PointHook";
 const SuperPowers = () => {
     return (
         <div className="space-y-8">
-            <PointHook top={'Stack & superpowers'} main={'The toolkit behind the Super powers.'} text={'I focus on the parts that make web products feel dependable: data models, API contracts, frontend state, and the tiny interaction details users actually notice.'}/>
-            <div className="grid grid-cols-3 gap-6">
+            <PointHook one top={'Stack & superpowers'} main={'The toolkit behind the Super powers.'} text={'I focus on the parts that make web products feel dependable: data models, API contracts, frontend state, and the tiny interaction details users actually notice.'}/>
+            <div className="grid  lg:grid-cols-3 gap-6">
                 <div className="bg-[#111827] group rounded-3xl border border-[#FFFFFF38] p-6 cursor-pointer tra hover:-translate-y-3 hover:shadow-[#52A3FF33] shadow-xl">
                     <div className="flex items-center gap-x-4">
                         <div className="bg-[#E11D2E1a] flex items-center justify-center border border-[#FF314538] w-14 h-14 rounded-2xl">

@@ -3,30 +3,39 @@ import BtnHook from "../../hooks/BtnHook";
 import { IoCodeSlash } from "react-icons/io5";
 import { GiSpiderMask } from "react-icons/gi";
 import CountUp from "../../animations/CountUp";
+import TextType from "../../animations/Type";
+import { IoIosMail } from "react-icons/io";
 
 const Hero = () => {
     return (
-        <div className="flex items-start justify-between space-x-5 -mt-8">
-            <div className="space-y-5 w-1/2">
+        <div className="flex lg:flex-row flex-col items-start justify-between gap-12 lg:gap-5 -mt-8">
+            <div className="space-y-5 lg:w-1/2">
                 <h4 className="blue font-extrabold uppercase text-base leading-3.5"><FaSpider className="text-lg inline mr-1 spidy -mt-1" /> Swinging through the web, one project at a time</h4>
-                <h2 className="teko font-bold text-7xl leading-20">Hola! I'm Meherab -- I build web experiences that feel like a spidy landing.</h2>
+                <TextType
+                    text={"Hola! I'm Meherab -- I build web experiences that feel like a spidy landing."}
+                    typingSpeed={75}
+                    pauseDuration={1500}
+                    className="teko font-bold text-7xl leading-20 h-80"
+                />
                 <p className="para text-[17px] leading-6.75">I build clean React interfaces, reliable Node.js APIs, and MongoDB-backed features with a focus on speed, usability, better experience and maintainable code.</p>
                 <div className="flex items-center gap-x-5">
-                    <BtnHook text={'View my work'} />
-                    <BtnHook text={'Contact me'} blue />
+                    <BtnHook text={'View my work'} link={'/works'} work />
+                    <a href="#contact" className={`btn bgBlue hovBlue hover:bg-white! font-extrabold tra px-6 py-6 border-0 rounded-full relative duration-200 group overflow-hidden`}>
+                        <span className="ml-6 tra group-hover:ml-0 group-hover:mr-6">Contact me</span><IoIosMail className="absolute text-xl top-1/2 -translate-1/2 left-7 group-hover:-rotate-45 group-hover:translate-x-4 tra opacity-1000 visible group-hover:opacity-0 group-hover:invisible" />
+                            <IoIosMail className="absolute text-xl top-1/2 tra -translate-y-1/2 right-6 opacity-0 invisible group-hover:opacity-100 group-hover:visible  group-hover:translate-x-0 -translate-x-4 group-hover:-rotate-45" /></a>
                 </div>
-                <div className="flex uppercase items-center gap-x-5">
+                <div className="flex lg:flex-row flex-col uppercase lg:items-center gap-5">
                     <div className="border border-[#FFFFFF24] bg-[#ffffff0D] p-5 w-75 rounded-2xl">
                         <h4 className="teko spidy font-bold text-4xl">Mern</h4>
                         <p className="para font-bold text-sm">React • Node • MongoDB</p>
                     </div>
-                    <div className="border border-[#FFFFFF24] bg-[#ffffff0D] p-5 w-75 rounded-2xl">
+                    <div className="border border-[#FFFFFF24] bg-[#ffffff0D] p-5 w-75 rounded-2xl ml-auto">
                         <h4 className="teko blue font-bold text-4xl">API + UI</h4>
                         <p className="para font-bold text-sm">End-to-end builds</p>
                     </div>
                 </div>
             </div>
-            <div className="bg-linear-to-br from-0% via-[#070A13] to-[#E11D2E66] border-[#52A3FF38] space-y-3 border rounded-4xl w-136.75 p-5 py-7">
+            <div className="bg-linear-to-br from-0% via-[#070A13] to-[#E11D2E66] border-[#52A3FF38] space-y-3 border rounded-4xl w-136.75 p-5 py-7 lg:mx-0 mx-auto">
                 <div className="flex uppercase items-center justify-between mb-4">
                     <p className="text-sm font-black">Coded for impact</p>
                     <p className="spidy text-2xl"><IoCodeSlash /></p>
@@ -82,20 +91,20 @@ const Hero = () => {
                                     </div>
                                     <div className="h-14 rounded-xl border border-[#FF314538] w-full p-1 px-3 bg-[#FF31451A]">
                                         <h3 className="spidy text-xl font-black"><CountUp
-                                                from={0}
-                                                to={10}
-                                                separator=","
-                                                direction="up"
-                                                duration={1}
-                                                className="count-up-text"
-                                                delay={0}
-                                            />+</h3>
+                                            from={0}
+                                            to={10}
+                                            separator=","
+                                            direction="up"
+                                            duration={1}
+                                            className="count-up-text"
+                                            delay={0}
+                                        />+</h3>
                                         <p className="para text-[10px] font-extrabold">Projects</p>
                                     </div>
                                     <div className="h-14 rounded-xl border border-[#F7F8FF38] w-full p-1 px-2 bg-[#F7F8FF1A]">
-                                        <p className="text-[10px] font-extrabold flex items-center gap-x-1"><div className="w-2 h-2 rounded-full bgBlue"></div>React</p>
-                                        <p className="text-[10px] font-extrabold flex items-center gap-x-1"><div className="w-2 h-2 rounded-full bgSpidy"></div>Node Js</p>
-                                        <p className="text-[10px] font-extrabold flex items-center gap-x-1"><div className="w-2 h-2 rounded-full bgBlue"></div>MongoDB</p>
+                                        <div className="text-[10px] font-extrabold flex items-center gap-x-1"><div className="w-2 h-2 rounded-full bgBlue"></div>React</div>
+                                        <div className="text-[10px] font-extrabold flex items-center gap-x-1"><div className="w-2 h-2 rounded-full bgSpidy"></div>Node Js</div>
+                                        <div className="text-[10px] font-extrabold flex items-center gap-x-1"><div className="w-2 h-2 rounded-full bgBlue"></div>MongoDB</div>
                                     </div>
                                     <div className="col-span-2 bg-[#070A1394] border border-[#52A3FF33] rounded-xl h-13.5 p-2 flex items-end gap-x-2">
                                         <div className="w-2.5 h-4/5 ani-increase tra rounded-full bg-[#F7F8FF38]"></div>

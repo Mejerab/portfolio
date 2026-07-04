@@ -1,14 +1,30 @@
 [
     {
         "id":1,
+        "title": "Meherab's Portfolio",
+        "image": "https://i.ibb.co.com/Zzv4W0sp/Screenshot-2026-07-04-141410.png",
+        "lang": [
+            "HTML",
+            "CSS",
+            "Js",
+            "react"
+        ],
+        "text": "A comprehensive Hospital Management System designed to streamline healthcare operations and improve patient care. The platform enables efficient management of patient records, doctor schedules, appointments, and medical histories from a centralized dashboard.",
+        "stack": "Frontend",
+        "code": "https://github.com/Mejerab/portfolio",
+        "link": "https://hotel-link-eb221.web.app"
+    },
+    {
+        "id":6,
         "title": "Resto Restaurant",
         "image": "https://i.ibb.co.com/qF1NNv7C/Screenshot-2026-06-26-163603.png",
         "lang": [
             "HTML",
             "CSS",
-            "Javascript",
-            "React"
+            "Js",
+            "react"
         ],
+        "text": "A modern Restaurant Management System built to simplify daily operations and enhance the dining experience. The platform allows staff to manage orders, reservations, menus, and table allocations through an intuitive interface.",
         "stack": "Frontend",
         "code": "https://github.com/Mejerab/restro",
         "link": "https://restro-restaurant.onrender.com"
@@ -20,26 +36,198 @@
         "lang": [
             "HTML",
             "CSS",
-            "Javascript",
-            "React"
+            "Js",
+            "react"
         ],
+        "text": "An Automobile Management System designed to efficiently manage vehicle-related operations for dealerships, service centers, and automotive businesses. The platform enables users to maintain vehicle inventories, track service histories, manage customer information, and schedule maintenance appointments from a centralized dashboard.",
         "stack": "Frontend",
         "code": "https://github.com/Mejerab/phill-pro-auto",
         "link": "https://phill-pro-auto.onrender.com"
     },
     {
         "id":3,
-        "title": "Meidco",
-        "image": "https://i.ibb.co.com/qF1NNv7C/Screenshot-2026-06-26-163603.png",
+        "title": "Meidko",
+        "image": "https://i.ibb.co.com/1tVq0mfm/Screenshot-2026-07-03-214031.png",
         "lang": [
             "HTML",
             "CSS",
-            "Javascript",
-            "React"
+            "Js",
+            "react"
         ],
+        "text": "A comprehensive Hospital Management System designed to streamline healthcare operations and improve patient care. The platform enables efficient management of patient records, doctor schedules, appointments, and medical histories from a centralized dashboard.",
         "stack": "Frontend",
-        "code": "https://github.com/Mejerab/phill-pro-auto",
-        "link": "https://phill-pro-auto.onrender.com"
+        "code": "https://github.com/Mejerab/medico",
+        "link": "https://medico-v9p4.onrender.com"
+    },
+    {
+        "id":4,
+        "title": "Unoo Chats",
+        "image": "https://i.ibb.co.com/hFPHpF8H/Screenshot-2026-07-04-124756.png",
+        "lang": [
+            "HTML",
+            "CSS",
+            "Js",
+            "react",
+            "firebase",
+            "socket",
+            "node",
+            "express",
+            "mongodb",
+            "jwt"
+        ],
+        "text": "A comprehensive Hospital Management System designed to streamline healthcare operations and improve patient care. The platform enables efficient management of patient records, doctor schedules, appointments, and medical histories from a centralized dashboard.",
+        "stack": "Fullstack",
+        "code": "https://github.com/Mejerab/Unoo-Chats",
+        "link": "https://unoo-chats-ac24a.web.app"
+    },
+    {
+        "id":5,
+        "title": "Tescom",
+        "image": "https://i.ibb.co.com/G4XVh7Fv/Screenshot-2026-07-04-125734.png",
+        "lang": [
+            "HTML",
+            "CSS",
+            "Js",
+            "react"
+        ],
+        "text": "A comprehensive Hospital Management System designed to streamline healthcare operations and improve patient care. The platform enables efficient management of patient records, doctor schedules, appointments, and medical histories from a centralized dashboard.",
+        "stack": "Frontend",
+        "code": "https://github.com/Mejerab/tescom",
+        "link": "https://tescom.onrender.com"
+    },
+    {
+        "id":14,
+        "title": "Charify",
+        "image": "https://i.ibb.co.com/39VptzgF/Screenshot-2026-07-04-130240.png",
+        "lang": [
+            "HTML",
+            "CSS",
+            "Js",
+            "react"
+        ],
+        "text": "A comprehensive Hospital Management System designed to streamline healthcare operations and improve patient care. The platform enables efficient management of patient records, doctor schedules, appointments, and medical histories from a centralized dashboard.",
+        "stack": "Frontend",
+        "code": "https://github.com/Mejerab/charify",
+        "link": "https://charify1.netlify.app"
+    },
+    {
+        "id":7,
+        "title": "Blood Bond",
+        "image": "https://i.ibb.co.com/GvNdCpjy/Screenshot-2026-07-04-130601.png",
+        "lang": [
+            "HTML",
+            "CSS",
+            "Js",
+            "react",
+            "firebase",
+            "node",
+            "express",
+            "mongodb",
+            "jwt"
+        ],
+        "text": "A comprehensive Hospital Management System designed to streamline healthcare operations and improve patient care. The platform enables efficient management of patient records, doctor schedules, appointments, and medical histories from a centralized dashboard.",
+        "stack": "Fullstack",
+        "code": "https://github.com/Mejerab/blood-bond",
+        "link": "https://blood-bond-7a2a6.web.app"
+    },
+    {
+        "id":8,
+        "title": "Rolls Royce",
+        "image": "https://i.ibb.co.com/WL6R2sM/Screenshot-2026-07-04-131139.png",
+        "lang": [
+            "HTML",
+            "CSS",
+            "Js",
+            "react",
+            "firebase",
+            "node",
+            "express",
+            "mongodb",
+            "jwt",
+            "stripe"
+        ],
+        "text": "A comprehensive Hospital Management System designed to streamline healthcare operations and improve patient care. The platform enables efficient management of patient records, doctor schedules, appointments, and medical histories from a centralized dashboard.",
+        "stack": "Fullstack",
+        "code": "https://github.com/Mejerab/rolls-royce",
+        "link": "https://rolls-royce-82f92.web.app"
+    },
+    {
+        "id":9,
+        "title": "Crest Reality",
+        "image": "https://i.ibb.co.com/8ggsJHHx/Screenshot-2026-07-04-131451.png",
+        "lang": [
+            "HTML",
+            "CSS",
+            "Js",
+            "react"
+        ],
+        "text": "A comprehensive Hospital Management System designed to streamline healthcare operations and improve patient care. The platform enables efficient management of patient records, doctor schedules, appointments, and medical histories from a centralized dashboard.",
+        "stack": "Frontend",
+        "code": "https://github.com/Mejerab/Crest-Realty",
+        "link": "https://crest-realty.onrender.com"
+    },
+    {
+        "id":10,
+        "title": "Zesty",
+        "image": "https://i.ibb.co.com/xxv7rYg/Screenshot-2026-07-04-132520.png",
+        "lang": [
+            "HTML",
+            "CSS",
+            "Js",
+            "react"
+        ],
+        "text": "A comprehensive Hospital Management System designed to streamline healthcare operations and improve patient care. The platform enables efficient management of patient records, doctor schedules, appointments, and medical histories from a centralized dashboard.",
+        "stack": "Frontend",
+        "code": "https://github.com/Mejerab/zesty",
+        "link": "https://zesty-bxsa.onrender.com"
+    },
+    {
+        "id":11,
+        "title": "Munda",
+        "image": "https://i.ibb.co.com/Ps24sW0n/Screenshot-2026-07-04-133024.png",
+        "lang": [
+            "HTML",
+            "CSS",
+            "Js",
+            "react"
+        ],
+        "text": "A comprehensive Hospital Management System designed to streamline healthcare operations and improve patient care. The platform enables efficient management of patient records, doctor schedules, appointments, and medical histories from a centralized dashboard.",
+        "stack": "Frontend",
+        "code": "https://github.com/Mejerab/munda",
+        "link": "https://munda1.netlify.app"
+    },
+    {
+        "id":12,
+        "title": "Eventus",
+        "image": "https://i.ibb.co.com/MxK4NTyf/Screenshot-2026-07-04-133744.png",
+        "lang": [
+            "HTML",
+            "CSS",
+            "Js",
+            "react"
+        ],
+        "text": "A comprehensive Hospital Management System designed to streamline healthcare operations and improve patient care. The platform enables efficient management of patient records, doctor schedules, appointments, and medical histories from a centralized dashboard.",
+        "stack": "Frontend",
+        "code": "https://github.com/Mejerab/eventus",
+        "link": "https://eventus04.netlify.app"
+    },
+    {
+        "id":13,
+        "title": "Hotel Link",
+        "image": "https://i.ibb.co.com/5gLwFSkd/Screenshot-2026-07-04-135937.png",
+        "lang": [
+            "HTML",
+            "CSS",
+            "Js",
+            "react",
+            "firebase",
+            "node",
+            "express",
+            "mongodb"
+        ],
+        "text": "A comprehensive Hospital Management System designed to streamline healthcare operations and improve patient care. The platform enables efficient management of patient records, doctor schedules, appointments, and medical histories from a centralized dashboard.",
+        "stack": "Fullstack",
+        "code": "https://github.com/Mejerab/hotel-link",
+        "link": "https://hotel-link-eb221.web.app"
     }
-
 ]
