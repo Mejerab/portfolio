@@ -10,11 +10,7 @@ import 'aos/dist/aos.css';
 const IDo = () => {
     Aos.init();
     return (
-<<<<<<< HEAD
-        <div className="rounded-[38px] border border-[#FFFFFF14] bg-linear-to-br from-[#ffffff14] to-[#080C18D1] p-6 lg:p-8 flex lg:flex-row flex-col items-center justify-between gap-8 lg:h-120">
-=======
         <div className="rounded-[38px] border border-[#FFFFFF14] bg-linear-to-br from-[#ffffff14] to-[#080C18D1] p-8 flex lg:flex-row flex-col items-center justify-between gap-8 lg:h-120">
->>>>>>> 9f000b6173f569ef99781c02404541a47224ca36
             <div className="lg:w-1/2 space-y-12">
                 <PointHook col top={'how I build'} main={'Every great web starts with a plan, not a web of bugs.'} text={'From responsive frontends to reliable backend systems, I build full-stack experiences that are clean, maintainable, and ready for real users.'} />
                 <ul className="timeline relative">
