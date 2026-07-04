@@ -20,7 +20,7 @@ const Hero = () => {
                 <p className="para text-[17px] leading-6.75">I build clean React interfaces, reliable Node.js APIs, and MongoDB-backed features with a focus on speed, usability, better experience and maintainable code.</p>
                 <div className="flex items-center gap-x-5">
                     <BtnHook text={'View my work'} link={'/works'} work />
-                    <a href="#contact" className={`btn bgBlue hovBlue hover:bg-white! font-extrabold tra px-6 py-6 border-0 rounded-full relative duration-200 group overflow-hidden`}>
+                    <a href="#contact" className={`btn bgBlue hovBlue text-white hover:bg-white! font-extrabold tra px-6 py-6 border-0 rounded-full relative duration-200 group overflow-hidden`}>
                         <span className="ml-6 tra group-hover:ml-0 group-hover:mr-6">Contact me</span><IoIosMail className="absolute text-xl top-1/2 -translate-1/2 left-7 group-hover:-rotate-45 group-hover:translate-x-4 tra opacity-1000 visible group-hover:opacity-0 group-hover:invisible" />
                             <IoIosMail className="absolute text-xl top-1/2 tra -translate-y-1/2 right-6 opacity-0 invisible group-hover:opacity-100 group-hover:visible  group-hover:translate-x-0 -translate-x-4 group-hover:-rotate-45" /></a>
                 </div>
