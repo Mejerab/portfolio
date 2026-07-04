@@ -27,7 +27,7 @@ const About = () => {
                 </div>
                 <div className="border border-[#FF314547] rounded-4xl lg:w-1/2 w-full p-7 space-y-4">
                     <h3 className="teko font-bold text-4xl">By the numbers</h3>
-                    <div className="grid  gap-6">
+                    <div className="grid grid-cols-2 gap-6">
                         <div className="bg-[#FFFFFF0D] border border-[#52A3FF3D] rounded-[20px] p-5">
                             <h4 className="teko font-bold text-5xl mb-1 blue">
                                 <CountUp
